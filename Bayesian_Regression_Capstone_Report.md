@@ -85,10 +85,10 @@ This makes Bayesian Regression suitable for pipelines that need interpretable un
 | Feature                     | Linear Regression        | Bayesian Regression            |
 |-----------------------------|--------------------------|--------------------------------|
 | Prediction Type             | Point Estimate           | Predictive Distribution        |
-| Handles Uncertainty         | ❌ No                    | ✅ Yes                         |
-| Incorporates Priors         | ❌ No                    | ✅ Yes                         |
-| Overfitting Control         | ❌ Needs manual regularization | ✅ Regularized via Priors |
-| Interpretability            | ✅ High                  | ⚠️ Moderate (depends on priors) |
+| Handles Uncertainty         |  No                    |  Yes                         |
+| Incorporates Priors         |  No                    |  Yes                         |
+| Overfitting Control         |  Needs manual regularization |  Regularized via Priors |
+| Interpretability            |  High                  | ⚠ Moderate (depends on priors) |
 
 > In Bayesian Regression, each prediction comes with a confidence interval, while linear regression offers no uncertainty quantification.
 
